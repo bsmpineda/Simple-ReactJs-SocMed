@@ -1,0 +1,78 @@
+body{
+    align-items: center;
+    top: 0;
+}
+
+#loginForm {
+   /* Center the form on the page */
+   color: black;
+   margin: 0 auto;
+   margin-top: 20pt;
+   width: 400px;
+   background-color: white;
+  
+   /* Form outline */
+   padding: 1em;
+   border: 1px solid #CCC;
+   border-radius: 1em;
+   align-items: center;
+  }
+  
+  #loginForm .input {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding: 5pt;
+    margin-top: 5pt;
+  }
+
+  form .label {
+    /* Uniform size & alignment */
+    width: 90px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+ #submit{
+    border: none;
+    color: white;
+    background-color: rgb(22, 70, 202);
+    width: 45%;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Sans-serif';
+    margin: 4px 2px;
+    margin-left: 4em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  div a{
+    text-decoration: none;
+    color: rgb(0, 95, 238);
+    text-align: center;
+  }
+
+  .signUp{
+    text-align: center;
+  }

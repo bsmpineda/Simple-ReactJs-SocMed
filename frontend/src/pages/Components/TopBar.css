@@ -1,0 +1,53 @@
+.topbarContainer {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(27, 28, 29);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .topbarLeft, .topbarRight {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+ 
+  #logo{
+    width: 80px;
+    margin-left: 5em;
+    border-radius: 50%;
+}
+
+#userDp{
+    width: 40px;
+    border-radius: 50%;
+}
+
+#searchbar {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+#searchbar img{
+    width: 18px;
+}
+
+#searchInput{
+    color: black;
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}

@@ -1,0 +1,47 @@
+
+.search ul{
+    margin-top: 80px;
+    align-self: center;
+    list-style: none;
+    align-items: center;
+}
+
+.search li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.search li label{
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    width: fit-content;
+    font-size: 20pt;
+}
+.search img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.search p {
+    margin-left: 50px;
+    align-items: center;
+}
+
+#noResult{
+    margin-top: 100px;
+}
+
+.addFriend{
+    background-color:white;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 40px;
+}

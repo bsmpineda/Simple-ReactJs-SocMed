@@ -1,0 +1,54 @@
+.right-sidebar{
+    background-color: black;
+    flex-basis: 25%;
+    top: 70px;
+    align-self: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+ }
+
+ .right-sidebar label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    width: fit-content;
+    font-size: 14pt;
+}
+
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.right-sidebar h4{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 14pt;
+}
+
+
+.userList{
+    border-bottom: 1px solid gray;
+    list-style: none;
+    right: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.confirmBtn{
+    background-color:#4267B2;
+    color:white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.delBtn{
+    background-color:white;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
